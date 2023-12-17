@@ -9,6 +9,6 @@ numpy
 scipy
 pygame
 
-To run the project, you must install these libraries and start the 'main.py' file.
+To run the project, you must install these libraries and start the 'main.py' file, to close it, you should stop 'main.py'.
 
 You can contact the creator via GitHub (@platondr) of email (platon.drozman@gmail.com)
