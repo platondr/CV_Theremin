@@ -22,7 +22,7 @@ while (cap.isOpened()):
     flippedRGB = cv2.resize(flippedRGB, frame_size, interpolation=cv2.INTER_AREA)
     # detecting hands
     results = handsDetector.process(flippedRGB)
-    # drawing the pointing finger fingertips
+    # drawing the index finger fingertips
     if results.multi_hand_landmarks is not None:
         if len(results.multi_hand_landmarks) >= 2:
             hands_number = 2
