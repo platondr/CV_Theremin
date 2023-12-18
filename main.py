@@ -1,5 +1,4 @@
 import os
-import sys
 
 import cv2
 import mediapipe as mp
@@ -94,6 +93,7 @@ while (cap.isOpened()):
             generate(pitch, volume)
         # showing the picture
         cv2.imshow("CV Theremin", res_image)
+    # breaking the cycle, if the program is interrupted
     except KeyboardInterrupt:
         break
 
