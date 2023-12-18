@@ -10,3 +10,10 @@ To run the project, you must install these libraries and start the 'main.py' fil
 The theremin is a fun thing to mess around with, however it can also be used to record interesting sounds.
 Currently, the project is finished
 You can contact the creator via GitHub (@platondr) of email (platon.drozman@gmail.com)
+
+### Suggestions from Misyriy Andreev:
+- Writing a good README.md file. The current one lacks information, lacks usage examples, lacks installation instructions, etc. + explain what a theremin is
+- Drawing the volume and pitch axes on the screen. Writing that in README is not enough
+- Making the code terminate when the window is closed
+BUG:
+if you terminate the code, then run it, close the window and terminate the code again, you get KeyboardInterrupt error from mediapipe
