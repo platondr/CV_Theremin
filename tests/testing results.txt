@@ -1,0 +1,4 @@
+Testing results
+The testing showed that the program is working correctly, as intended, creating sounds based on the hand position.
+Issues uncovered:
+On my computer (maybe because of a bad sound card) there is a clicking noise, however other computers do not have this issue.
