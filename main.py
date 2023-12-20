@@ -11,6 +11,7 @@ cap = cv2.VideoCapture(0)
 mixer.init()
 frame_size = (960, 720)
 lowest_pitch = 110
+started = 0
 
 while (cap.isOpened()):
     try:
@@ -91,8 +92,12 @@ while (cap.isOpened()):
                     volume = 0
             # generating and playing the audio
             generate(pitch, volume)
+        # if the window was closed
+        if started and cv2.getWindowProperty('CV Theremin', cv2.WND_PROP_VISIBLE) == 0:
+            break
         # showing the picture
-        cv2.imshow("CV Theremin", res_image)
+        cv2.imshow('CV Theremin', res_image)
+        started = 1
     # breaking the cycle, if the program is interrupted
     except KeyboardInterrupt:
         break
