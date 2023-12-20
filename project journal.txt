@@ -1,0 +1,13 @@
+CV Theremin project journal
+(completed) Create a GitHub repository for the project
+(completed) Use mediapipe to detect and show the index finger position
+(completed) Create the interface by drawing the volume and pitch lines
+(completed) Create a code that tells that both hands must be in the picture, when they are not
+(completed) Create a way to calculate the frequency and volume of the sound
+(completed) Create the sound generation and replay
+(completed) Create a README and requirements file
+(completed) Test the program
+(completed) Solve the issues
+(completed) Get testing results from other testers
+(completed) Solve the issues — rewrite the README file, make the code terminate itself when the 'X' button is pressed, delete venv and .idea folders from the GitHub repository
+(completed) Put the final version out on GitHub
